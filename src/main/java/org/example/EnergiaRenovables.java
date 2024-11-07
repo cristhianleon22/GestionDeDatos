@@ -1,6 +1,7 @@
 package org.example;
 
-public abstract class                     j {
+//clase principal
+public class EnergiaRenovables {
     // definicion de parametros
     String tipoEnergia;
     String pais;
@@ -63,7 +64,5 @@ public abstract class                     j {
         double balaceEnerg= produccion-consumo;
         System.out.println("El balance Energetico de "+ tipoEnergia + " es " + balaceEnerg+ " Kw");
     }
-
-}
 
 }
